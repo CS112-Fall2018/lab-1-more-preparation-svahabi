@@ -2,6 +2,8 @@ Lab 1 Worksheet
 
 1. What if 12 bits were used to store a signed integer. What is the biggest/smallest possible integer?
 
+The largest is 2047 and the smallest is -2048.
+
 2. Think about possible values and their range, say what type of variable would be suitable for the following, and suggest a name for it too. 
 
 For example: the temperature of a room in degrees Fahrenheit. Room temperature is likely to vary between say 50 degrees F and 100 degrees F,  but it can take any value in between including non-integers, e.g 71.19 F, so the type must be float or double depending on the accuracy required. A suitable variable name would be roomTemp. 
@@ -9,15 +11,27 @@ For example: the temperature of a room in degrees Fahrenheit. Room temperature i
 
 (i) The number of pages in a book; 
 
+Type: int , Name: int pageCount
+
 (ii) The number of atoms in a book; 
+
+Type: float, Name: float atomCount
 
 (iii) The length of a side of a triangle in inches; 
 
+Type: double , Name: double sideLength
+
 (iv) Your name; 
+
+Type: String , Name: String Shayan
 
 (v) Whether or not a nucleus has decayed; 
 
+Type: Boolean , Name: boolean hasDecayed
+
 (vi) The probability that it could have decayed. 
+
+Type: float , Name: float decayProb
 
 3. Start to do a little java programming! 
 	Follow the example of the Hello.java program and do some testing of Java int and float.
